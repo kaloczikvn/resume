@@ -5,12 +5,7 @@
     "name": "Ricardo Q. Bazan",
     "nickname": "Santiago",
     "freelanceRole": "Software Consultant",
-    "interests": [
-      "problem solving",
-      "clean code ",
-      "web development",
-      "api architecture"
-    ],
+    "interests": ["problem solving", "clean code ", "web development", "api architecture"],
     "location": "Peru",
     "website": "https://rcrd.space",
     "email": "ricardo.quiroz@pedidosya.com",

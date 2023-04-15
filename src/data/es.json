@@ -5,12 +5,7 @@
     "name": "Ricardo Q. Bazan",
     "nickname": "Santiago",
     "freelanceRole": "Software Consultant",
-    "interests": [
-      "problem solving",
-      "clean code ",
-      "web development",
-      "api architecture"
-    ],
+    "interests": ["problem solving", "clean code ", "web development", "api architecture"],
     "location": "Peru",
     "website": "https://rcrd.space",
     "github": "https://github.com/rqbazan",
@@ -102,28 +97,13 @@
       {
         "id": "reck6tsBdYxMGY0y2",
         "title": "Pruebas",
-        "tags": [
-          "Jest",
-          "Ava",
-          "ReactTestingLibrary",
-          "Puppeteer",
-          "Unit/Integration/E2E"
-        ],
+        "tags": ["Jest", "Ava", "ReactTestingLibrary", "Puppeteer", "Unit/Integration/E2E"],
         "Tech Resumes": ["reciF6HcyQmRarboa"]
       },
       {
         "id": "reciJWQXRW2H9SLPt",
         "title": "Lenguajes",
-        "tags": [
-          "ES6",
-          "Typescript",
-          "Python",
-          "Kotlin",
-          "Java",
-          "C#",
-          "C",
-          "C++"
-        ],
+        "tags": ["ES6", "Typescript", "Python", "Kotlin", "Java", "C#", "C", "C++"],
         "Tech Resumes": ["reciF6HcyQmRarboa"]
       },
       {
