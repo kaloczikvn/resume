@@ -96,7 +96,7 @@ export const App: React.FC = () => {
                 <ListItem>UI felületek fejlesztése VueJs használatával</ListItem>
                 <ListItem>UI felületek tervezése</ListItem>
                 <ListItem>Mod fejlesztése Lua programozási nyelven</ListItem>
-                <ListItem>Trailer film forgatása és vágása</ListItem>
+                <ListItem>Trailer videó forgatása és vágása</ListItem>
               </WorkPost>
               <WorkPost
                 title='BF3: Battle Royale'
@@ -104,7 +104,7 @@ export const App: React.FC = () => {
                 companyUrl='https://bf3br.github.io/'
                 location='Távoli'
                 startAt='2020'
-                description={`A "BF3: Battle Royale" egy Battlefield 3 mod, amelynek célja a 'last man standing' (mint pl.: PUBG, Fortnite) játékmód elkészítése volt ehhez a játékhoz.`}
+                description={`A "BF3: Battle Royale" egy Battlefield 3 mod, amelynek célja a "last man standing" (mint pl.: PUBG, Fortnite) játékmód elkészítése volt ehhez a játékhoz.`}
               >
                 <ListItem>Projektvezető szerep</ListItem>
                 <ListItem>UI felületek fejlesztése React használatával</ListItem>
