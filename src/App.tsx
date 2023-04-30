@@ -9,18 +9,6 @@ import EducationPost from './components/EducationPost';
 import Insight from './components/Insight';
 import { Language } from './components/Language';
 import SocialMedia from './components/SocialMedia';
-import THEME from './theme';
-/*
-import {
-  Heading,
-  Section,
-  ListItem,
-  WorkPost,
-  Resume,
-  EducationPost,
-  Watermark,
-} from './components/ui';
-*/
 
 const styles = StyleSheet.create({
   page: {
@@ -56,7 +44,7 @@ export const App: React.FC = () => {
         <Heading
           title='Kálóczi Kevin'
           subtitle='Webes frontend/backend fejlesztő'
-          avatarUrl='https://avatars.githubusercontent.com/u/38252773?v=4'
+          avatarUrl="/img/avatar.png"
           information={{
             phone: '+36 30 335 5269',
             email: 'kaloczi.kvn@gmail.com',
@@ -160,7 +148,7 @@ export const App: React.FC = () => {
             <Section title='Találj meg' spacing={0}>
               <View style={{ flexDirection: 'row' }}>
                 <SocialMedia
-                  name='Github'
+                  name='GitHub'
                   profileUrl='https://github.com/kaloczikvn'
                   style={{ flex: 1 }}
                 />
@@ -173,143 +161,7 @@ export const App: React.FC = () => {
             </Section>
           </View>
         </View>
-        {/*
-        <View style={styles.row}>
-          <View style={styles.leftColumn}>
-            <Section title={s['title.workExperience']} spacing={8}>
-              {techResume.workExperiences.map((workExperience) => (
-                <WorkPost
-                  key={workExperience.id}
-                  title={workExperience.title}
-                  companyName={workExperience.company}
-                  companyUrl={workExperience.companyUrl}
-                  location={workExperience.location}
-                  startAt={workExperience.startAt}
-                  endAt={workExperience.endAt}
-                  description={workExperience.description}
-                >
-                  {workExperience.lines
-                    ?.split('\n')
-                    .filter(Boolean)
-                    .map((line, i) => (
-                      <ListItem key={`${workExperience.id}-line-${i}`}>
-                        {line}
-                      </ListItem>
-                    ))}
-                </WorkPost>
-              ))}
-            </Section>
-          </View>
-          <View style={styles.rightColumn}>
-            <Section title={s['title.aboutMe']} spacing={8}>
-              <Resume>{techResume.aboutMe}</Resume>
-            </Section>
-            <Section title={s['title.education']} spacing={8}>
-              {techResume.educationExperiences.map((educationExperience) => (
-                <EducationPost
-                  key={educationExperience.id}
-                  title={educationExperience.title}
-                  almaMater={educationExperience.almaMater}
-                  startAt={educationExperience.startAt}
-                  endAt={educationExperience.endAt}
-                  location={educationExperience.location}
-                >
-                  {educationExperience.lines
-                    .split('\n')
-                    .filter(Boolean)
-                    .map((line, i) => (
-                      <ListItem key={`${educationExperience.id}-line-${i}`}>
-                        {line}
-                      </ListItem>
-                    ))}
-                </EducationPost>
-              ))}
-            </Section>
-            <Section title={s['title.lang']} spacing={12}>
-              {techResume.langSkills.map((langSkill) => (
-                <Language
-                  key={langSkill.id}
-                  name={langSkill.name}
-                  scoreLabel={langSkill.scoreLabel}
-                  score={langSkill.score}
-                />
-              ))}
-            </Section>
-            <Section title={s['title.strengths']} spacing={12}>
-              {techResume.strengths.map((strength) => (
-                <Insight
-                  key={strength.id}
-                  title={strength.name}
-                  description={strength.description}
-                  iconName={strength.icon as IconName}
-                />
-              ))}
-            </Section>
-            <Section title={s['title.findMe']} spacing={0}>
-              <View style={{ flexDirection: 'row' }}>
-                <SocialMedia
-                  name="Twitter"
-                  profileUrl={techProfile.twitter}
-                  style={{ flex: 1 }}
-                />
-                <SocialMedia
-                  name="Github"
-                  profileUrl={techProfile.github}
-                  style={{ flex: 1 }}
-                />
-                <SocialMedia
-                  name="LinkedIn"
-                  profileUrl={techProfile.linkedin}
-                  style={{ flex: 1 }}
-                />
-              </View>
-            </Section>
-          </View>
-        </View>
-        */}
       </Page>
-      {/*techResume.workProjects?.length ? (
-        <Page size="A4" style={styles.page}>
-          <Watermark />
-          <View style={styles.row}>
-            <View style={styles.leftColumn}>
-              <Section title={s['title.projects']} spacing={8}>
-                {techResume.workProjects?.map((workProject) => (
-                  <WorkPost
-                    key={workProject.id}
-                    title={workProject.title}
-                    location={workProject.location}
-                    companyName={workProject.company}
-                    startAt={workProject.startAt}
-                    endAt={workProject.endAt}
-                    description={workProject.description}
-                  >
-                    {workProject.lines
-                      ?.split('\n')
-                      .filter(Boolean)
-                      .map((line, i) => (
-                        <ListItem key={`${workProject.id}-line-${i}`}>
-                          {line}
-                        </ListItem>
-                      ))}
-                  </WorkPost>
-                ))}
-              </Section>
-            </View>
-            <View style={styles.rightColumn}>
-              <Section title={s['title.tech']} spacing={8}>
-                {techResume.techGroups?.map((techGroup) => (
-                  <TechGroup
-                    key={techGroup.id}
-                    title={techGroup.title}
-                    tags={techGroup.tags}
-                  />
-                ))}
-              </Section>
-            </View>
-          </View>
-        </Page>
-      ) : null*/}
     </Document>
   );
 };
