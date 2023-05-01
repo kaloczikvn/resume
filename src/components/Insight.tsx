@@ -7,7 +7,7 @@ export interface IInsight {
   style?: Style;
   iconName?: TIconName;
   title: string;
-  description: string;
+  description: any;
 }
 
 const styles = StyleSheet.create({

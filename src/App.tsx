@@ -136,7 +136,7 @@ export const App: React.FC = () => {
             <Section title='Hobbik és érdeklődési területek' spacing={8}>
               <Insight
                 title='Játékfejlesztés'
-                description='Azon túl, hogy weblapok programozásával foglalkozom, mindig is érdekelt a videójátékok fejlesztése. A játékfejlesztéssel kapcsolatos projekteimről részletes információkat saját weboldalamon találhatóak.'
+                description={<>Azon túl, hogy weblapok programozásával foglalkozom, mindig is érdekelt a videójátékok fejlesztése. A játékfejlesztéssel kapcsolatos projekteimről részletes információkat saját web<br/>oldalamon találhatóak.</>}
                 iconName='game'
               />
               <Insight
